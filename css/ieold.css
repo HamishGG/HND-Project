@@ -1,0 +1,148 @@
+header, nav, section, footer {display:block;}
+
+	body {
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	font-size:12px;
+	background-color: #92c7ad;
+	}
+	p, li, body > footer span { font-size:1.5em; }
+	h3 { font-size:1.7em; } 
+	h2 { font-size:2.0em; } 
+	h1 { font-size:2.5em;}
+	header {
+	height:200px;
+	width: 100%;
+	padding:0px 10px;
+	background-color:#92c7ad;
+	background-image: url("../assets/Logo.png");
+	background-size:cover,contain;
+	background-repeat:no-repeat, no-repeat;
+	background-position:center;
+
+}
+	header h1 { font-size:4em; }
+	
+	nav {
+	background-color:#666666;
+	width:100%;
+	height:3.7em;
+}
+nav ul {
+	margin:0px;
+	padding:0px;
+}
+nav ul li {
+	list-style-type:none;
+	text-align:center;
+}
+body > nav ul li {
+	background-color:#aaaaaa;
+	width:140px;
+	float:left;
+
+}
+body > nav ul li a { display:inline-block;width:120px;margin:0px; }
+nav ul li a {
+	padding:10px;
+	text-decoration:none;
+}
+nav ul li a:link, nav ul li a:visited {
+	background-color:#666666;
+	color:#ffffff;
+
+}
+
+nav ul li a:hover, nav ul li a:active {
+	background-color:#ffffff;
+	color:#666666;
+}
+
+section { width:100%; display:block;}
+section h1 {
+	padding:5px;
+	margin:0px;
+}
+aside {
+	background-color:#eeeeee;
+	border:1px solid #666666;
+	padding:5px;
+	margin:5px;
+	float:right;
+	height:100%;
+	width:150px;
+}
+article {
+	float:left;
+	border:1px solid #666666;
+	padding:5px;
+	margin:5px;
+	width:606px;
+	background-color:white;
+}
+article > footer { font-size:0.8em;font-style:italic; }
+
+/*
+margin left + border left + padding left + width + padding right + border right + margin right
+
+Width of article + aside =
+
+- Article -
+5px + 1px + 5px + 606px + 5px + 1px + 5px = 628px
+
+- Aside -
+5px + 1px + 5px + 150px + 5px + 1px + 5px = 172px
+
+Total width = 628 + 172 = 800px
+*/
+
+body > footer {
+	clear:both;
+	padding-top:5px;
+	height:30px;
+	background-color:#dddddd;
+}
+body > footer > nav {
+	width:auto;
+	float:right;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background-color:#eeeeee;
+}
+body > footer > nav ul li {
+	width:auto;
+	height:auto;
+	float:right;
+	margin-top:5px;
+}
+body > footer > span {
+	float:left;
+	width:250px;
+	margin:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+body > footer > nav ul li a {
+	
+	height:inherit;
+	width:auto;
+	padding:5px 20px 5px 20px;
+	margin-top:5px;
+}
+
+.articleh1 {
+	background-color: rgb(255, 74, 28);
+	color:white;
+}
+.commenth1 {
+	background-color: rgb(255, 74, 28);
+	color:white;
+}
+.articleh2 {
+	color:black;
+}
+
+
+
